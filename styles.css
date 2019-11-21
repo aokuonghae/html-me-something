@@ -3,6 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #fff;
+}
+p{
+  font-size: 110%;
+  margin-bottom: 1em;
+  line-height: 1.8em
+}
+h2{
+  margin-bottom: 0.5em;
+  font-size: 2em;
+}
 .menu-container{
   color: black;
   background-color: #85a3e0;
@@ -49,8 +61,24 @@
   top: 350px;
 }
 .content-container{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f2f2f2;
   position: absolute;
-  top: 550px;
-  padding: 50px 0;
+  width: 900px;
+  top: 525px;
+  left: 225px;
+  padding: 50px 50px;
   color: black;
+}
+nav {
+  position: relative;
+  top: 450px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  margin-bottom: 1em;
+  line-height: 1.8em
+}
+ul{
 }
