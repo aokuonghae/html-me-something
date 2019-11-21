@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-container{
+  color: black;
+  background-color: #85a3e0;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.assignment-info {
+  display: flex;
+  justify-content: flex-end;
+}
+.assignment-type {
+  margin-left: 10px;
+}
+.title-container{
+  position: relative;
+  padding: 50px 0;
+  font-family: Playfair Display, Georgia, serif;
+  color: white;
+}
+.banner{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.title{
+  z-index: 100;
+  position: absolute;
+  font-size: 3.5em;
+  left: 120px;
+  top: 280px;
+}
+.sub-title{
+  z-index: 100;
+  position: absolute;
+  font-size: 1em;
+  margin-top: 5px;
+  font-style: italic;
+  left: 150px;
+  top: 350px;
+}
+.content-container{
+  position: absolute;
+  top: 550px;
+  padding: 50px 0;
+  color: black;
+}
