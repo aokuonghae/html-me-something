@@ -7,18 +7,12 @@ main {
   background-color: #fff;
 }
 body{
-  background-color: #b30000;
+  background-color: #660000;
 }
 p{
   font-size: 110%;
   margin-bottom: 1em;
   line-height: 1.8em
-}
-ol {
-  font-size: 110%;
-  margin-bottom: 1em;
-  line-height: 1.8em;
-  margin-left: 50px;
 }
 h2{
   margin-bottom: 0.5em;
@@ -33,6 +27,7 @@ header{
   color: white;
 }
 .banner{
+  width:auto;
   position: absolute;
   left: 0;
   top: 0;
@@ -67,18 +62,29 @@ main{
 nav {
   background-color: #fff;
   position: relative;
-  top: 385px;
+  top: 400px;
   float: right;
   width: 15%;
-  margin: 0 5em 1em 1em;
-  padding: 1em 1em 1em 1em;
+  margin: 0 7em 1em 1em;
+  padding: 1em 1em 1em 2.5em;
   line-height: 1.8em;
 }
-.zahir{
+.nav-sub{
+  margin-left: 50px;
+}
+ol {
+  font-size: 110%;
+  margin-bottom: 1em;
+  line-height: 1.8em;
+  margin-left: 50px;
+}
+.centered, .zahir{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+}
+.zahir {
+    width: 50%;
 }
 .marcin-image{
   float: right;
@@ -98,11 +104,12 @@ footer{
 a {
   color: black;
 }
-.nav-sub{
-  margin-left: 50px;
-}
-.disclaimer, .selected{
+.disclaimer{
   display: flex;
   justify-content: center;
   font-size: 1em;
+}
+.describing-actions{
+  font-size: 2em;
+  text-align: center;
 }
