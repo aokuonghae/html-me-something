@@ -26,25 +26,7 @@ h2{
   font-family: 'Anton', sans-serif;
   font-weight: normal;
 }
-.menu-container{
-  color: black;
-  background-color: #85a3e0;
-  display: flex;
-  justify-content: center;
-}
-.menu {
-  width: 900px;
-  display: flex;
-  justify-content: space-between;
-}
-.assignment-info {
-  display: flex;
-  justify-content: flex-end;
-}
-.assignment-type {
-  margin-left: 10px;
-}
-.title-container{
+header{
   position: relative;
   padding: 50px 0;
   font-family: Playfair Display, Georgia, serif;
