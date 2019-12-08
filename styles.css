@@ -26,6 +26,9 @@ header{
   font-family:'Playfair Display', Georgia, serif;
   color: white;
 }
+.navigation-bar {
+  list-style-type:none;
+}
 .banner{
   width:auto;
   position: absolute;
